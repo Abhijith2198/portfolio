@@ -1,0 +1,11 @@
+{
+  "description": "Original Figma mockups. Empty transparent margins were trimmed without resampling.",
+  "assets": [
+    {"file":"repup-insights.png","fileKey":"F4CyUMyw9RbevuZoxXeAlb","nodeId":"1558:1094","pixels":[886,1425]},
+    {"file":"repup-home.png","fileKey":"F4CyUMyw9RbevuZoxXeAlb","nodeId":"1558:1098","pixels":[872,1401]},
+    {"file":"repup-workout.png","fileKey":"F4CyUMyw9RbevuZoxXeAlb","nodeId":"1558:1102","pixels":[864,1389]},
+    {"file":"meridian-home.png","fileKey":"xNvNd5LEvHxfKhRFqbb7zG","nodeId":"35:620","pixels":[1783,1076]},
+    {"file":"verge-start.png","fileKey":"eT2IXKeUUmG9FpIuEljtXh","nodeId":"2:2","pixels":[662,1360]},
+    {"file":"verge-review.png","fileKey":"eT2IXKeUUmG9FpIuEljtXh","nodeId":"2:5","pixels":[662,1360]}
+  ]
+}

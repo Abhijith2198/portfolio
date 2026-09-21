@@ -1,0 +1,387 @@
+{
+  "name": "Abhijith U",
+  "role": "UI/UX designer",
+  "location": "Thiruvananthapuram, India",
+  "email": "abhijithuv6@gmail.com",
+  "intro": "I turn complex systems into clear, considered experiences.",
+  "bio": "I'm a UI/UX designer with a background in electrical and robotics engineering. I design mobile apps and websites, and I can build them in code.",
+  "about": [
+    "Before design, I studied Electrical and Electronics Engineering, then completed an M.Tech in Robotics and Automation at the College of Engineering Trivandrum. For my master's thesis, I built an autonomous landmine detector using Raspberry Pi, Arduino, ROS and lidar.",
+    "Robotics taught me to think in systems: how the parts connect, where things break, and what happens next. I now bring that way of thinking to information architecture, interaction design and interface details.",
+    "I moved into UI/UX through Intellipaat's design certification and an internship at Zoople Technologies. Freelance mobile interface work gave me experience with user flows, wireframes and interactive prototypes. I also write HTML, CSS and Python."
+  ],
+  "experience": [
+    {
+      "title": "Freelance UI/UX designer",
+      "detail": "Remote · Aug 2025 – Jul 2026"
+    },
+    {
+      "title": "UI/UX design intern",
+      "detail": "Zoople Technologies · Mar – Jun 2026"
+    }
+  ],
+  "education": [
+    {
+      "title": "M.Tech · Robotics and Automation",
+      "detail": "College of Engineering Trivandrum · 2022 – 2024"
+    },
+    {
+      "title": "B.Tech · Electrical and Electronics Engineering",
+      "detail": "Mahaguru Institute of Technology · 2017 – 2021"
+    },
+    {
+      "title": "UX/UI Design certification",
+      "detail": "Intellipaat"
+    }
+  ],
+  "projects": [
+    {
+      "slug": "repup",
+      "name": "RepUp",
+      "number": "01",
+      "category": "PRODUCT DESIGN · MOBILE APP",
+      "tagline": "Less friction. More momentum.",
+      "summary": "A focused fitness experience that brings the next workout and meaningful progress into view.",
+      "role": "End-to-end UI/UX",
+      "timeline": "3 weeks · 2026",
+      "platform": "iOS & Android",
+      "tools": "Figma, Photopea, Google Forms",
+      "status": "Independent app concept",
+      "overview": "RepUp brings guided workouts, personal plans and progress insights into one focused mobile experience. I worked from research and information architecture through a visual system and 23 high-fidelity screens.",
+      "problemTitle": "Starting a workout shouldn't feel like work.",
+      "problem": "Beginners felt overwhelmed by choices and unclear guidance. More experienced users wanted meaningful progress data without being treated like beginners. Both needed a clearer route from opening the app to getting started.",
+      "research": [
+        {
+          "value": "127",
+          "label": "survey respondents"
+        },
+        {
+          "value": "72%",
+          "label": "struggle with consistency"
+        },
+        {
+          "value": "84%",
+          "label": "want a simpler experience"
+        },
+        {
+          "value": "68%",
+          "label": "want visual progress"
+        }
+      ],
+      "researchNote": "Project research: Google Forms survey (127 respondents) and eight interviews of 20–30 minutes. These are research findings, not measured product outcomes.",
+      "quote": "Too many features crammed into one screen. I just want to start my workout without digging through menus and settings.",
+      "process": [
+        {
+          "title": "Listen & define",
+          "text": "A survey, eight interviews and a review of Nike Training Club, Peloton and MyFitnessPal surfaced two needs: guidance for beginners and useful data for experienced users."
+        },
+        {
+          "title": "Map the daily loop",
+          "text": "I organized the experience into six sections and three core journeys: onboarding, the daily workout loop, and upgrading to Pro."
+        },
+        {
+          "title": "Build & refine",
+          "text": "Low-fidelity wireframes established hierarchy before the high-fidelity system. Peer and target-user feedback informed layout and interaction refinements."
+        }
+      ],
+      "decisions": [
+        {
+          "title": "Put the next workout first",
+          "text": "Today's workout has its own start action on Home. The design target was a route of three taps or fewer, responding to the 55% who asked for quick-start workouts.",
+          "image": "repup/home.png"
+        },
+        {
+          "title": "Make progress a reason to return",
+          "text": "The weekly chart appears on Home, while Insights and Progress reveal longer-term trends. This responds to the 68% who asked for visual tracking.",
+          "image": "repup/insights.webp"
+        },
+        {
+          "title": "Ask only what shapes the plan",
+          "text": "Weight, height and fitness level form a short onboarding sequence. The goal was a fast, relevant start; the under-one-minute target still needs timed validation.",
+          "image": "repup/fitness-level.webp"
+        }
+      ],
+      "next": "Design the active workout timer, completion flow and recovery states. Then test the time to start a workout and whether AI coaching adds enough value to earn its place.",
+      "screenGroups": [
+        {
+          "name": "First impressions & access",
+          "files": [
+            "splash",
+            "welcome",
+            "sign-in-options",
+            "sign-in",
+            "register"
+          ]
+        },
+        {
+          "name": "A personal starting point",
+          "files": [
+            "weight",
+            "height",
+            "fitness-level"
+          ]
+        },
+        {
+          "name": "The daily fitness loop",
+          "files": [
+            "home",
+            "workout",
+            "todays-workout",
+            "insights",
+            "progress"
+          ]
+        },
+        {
+          "name": "Your space",
+          "files": [
+            "profile",
+            "edit-profile",
+            "settings",
+            "help",
+            "notifications",
+            "connected-devices",
+            "my-plans"
+          ]
+        },
+        {
+          "name": "From free to Pro",
+          "files": [
+            "upgrade",
+            "review",
+            "success"
+          ]
+        }
+      ],
+      "figma": "https://www.figma.com/design/y0w8JqgUseAR4D9TSa7Mt5/RepUp--final?node-id=1-156",
+      "boards": "https://www.figma.com/design/F4CyUMyw9RbevuZoxXeAlb/Fitness-App-1?node-id=571-594",
+      "editorial": {
+        "title": "Make the next step obvious.",
+        "text": "For RepUp, focus means giving the daily workout a clear starting point, then letting progress provide a reason to return.",
+        "cover": "A little less friction.\nA little more momentum."
+      }
+    },
+    {
+      "slug": "meridian",
+      "name": "Meridian",
+      "number": "02",
+      "category": "WEB DESIGN · ART DIRECTION",
+      "tagline": "A journey begins before departure.",
+      "summary": "A boutique travel concept with an editorial pace and a clear path from inspiration to inquiry.",
+      "role": "UI design & Figma build",
+      "timeline": "2026",
+      "platform": "Desktop & mobile web",
+      "tools": "Figma",
+      "status": "Self-initiated concept · fictional brand",
+      "overview": "Meridian is a fictional travel company built around regional specialists and bespoke itineraries. I designed the desktop homepage, Journal index, article page and a mobile homepage.",
+      "problemTitle": "Sell a sense of possibility, then make the next step obvious.",
+      "problem": "A catalogue of packages would work against Meridian's personal service. The challenge was to communicate place and expertise while keeping one action clear: starting a trip inquiry.",
+      "process": [
+        {
+          "title": "Define the visual world",
+          "text": "Spruce, stone and brass colors pair with Instrument Serif and Hanken Grotesk. Coordinates and route markings make the travel identity specific."
+        },
+        {
+          "title": "Build a reusable system",
+          "text": "I assembled the homepage with auto layout and reusable components, then extended the system into the Journal index and article page."
+        },
+        {
+          "title": "Refine with feedback",
+          "text": "Mentor feedback led to a wider inquiry bar, a clearer way to view all journeys and a route motif in the hero. The homepage was then adapted to 440 px mobile."
+        }
+      ],
+      "decisions": [
+        {
+          "title": "Give the inquiry room to work",
+          "text": "The inquiry bar grew from 720 px to the full 1200 px content width. Adding Trip style captures how someone wants to travel alongside where, when and with whom.",
+          "image": "meridian/home-hero.webp"
+        },
+        {
+          "title": "Make the route the signature",
+          "text": "A dashed route with waypoints replaced less effective hero treatments. A mask and Smart Animate create its reveal in the Figma prototype.",
+          "image": "meridian/home-route.webp"
+        },
+        {
+          "title": "Carry one idea across the system",
+          "text": "Coordinates connect the latitude strip, destination photography and footer. The same editorial hierarchy carries through the Journal and its stories.",
+          "image": "meridian/home-collection.webp"
+        }
+      ],
+      "next": "Complete the mobile Journal pages and design the trip-inquiry flow. Test whether travellers naturally begin with the inquiry bar or explore signature routes first.",
+      "figma": "https://www.figma.com/design/xNvNd5LEvHxfKhRFqbb7zG/Meridian?node-id=1-433",
+      "editorial": {
+        "title": "The journey starts with trust.",
+        "text": "Meridian balances the feeling of a place with the practical next step: an inquiry shaped around the traveller.",
+        "cover": "A sense of place,\nbefore you arrive."
+      }
+    },
+    {
+      "slug": "zomato",
+      "name": "Zomato IA redesign",
+      "number": "03",
+      "category": "UX STRATEGY · INFORMATION ARCHITECTURE",
+      "tagline": "One app. A clearer appetite.",
+      "summary": "Reorganizing a crowded food experience around what people came to do.",
+      "role": "UX designer · individual project",
+      "timeline": "5 days",
+      "platform": "Information architecture",
+      "tools": "Figma & FigJam",
+      "status": "Unsolicited concept · not affiliated with Zomato",
+      "overview": "This project rethinks navigation and the core ordering journey. Its outputs are an information architecture and user flow, rather than high-fidelity app screens.",
+      "problemTitle": "Too many destinations. Too little direction.",
+      "problem": "In the version I audited, food delivery, dining, grocery and events competed for attention. Cuisine shortcuts, promotional banners and restaurant cards added more choices before a person could act on their intent.",
+      "process": [
+        {
+          "title": "Audit the structure",
+          "text": "I mapped the existing verticals and identified competing navigation, content overload, unclear promotional hierarchy and redirects to separate services."
+        },
+        {
+          "title": "Group by intent",
+          "text": "Card sorting and tree-testing methods informed the proposed structure. The case-study materials do not record a participant count or quantitative validation results."
+        },
+        {
+          "title": "Reveal information in context",
+          "text": "Progressive disclosure shapes Home and the ordering journey: show the choices relevant to the task, then introduce detail when it is needed."
+        }
+      ],
+      "decisions": [
+        {
+          "title": "Keep four stable destinations",
+          "text": "Home, Search, Orders and Account become fixed tabs. Blinkit and District remain reachable through deep links outside the core navigation."
+        },
+        {
+          "title": "Ask for intent before content",
+          "text": "An Order in / Dine out toggle makes Home relevant to the immediate task. Six cuisine shortcuts and See all reduce the initial choice set."
+        },
+        {
+          "title": "Bring browsing and search together",
+          "text": "People who know what they want search; others browse. Both routes converge on one restaurant page, followed by a consistent cart and checkout."
+        }
+      ],
+      "next": "Test findability with real users, compare the four-tab model against the audited structure, and test the Order in / Dine out split. Validate the number of cuisine shortcuts rather than treating six as settled.",
+      "tabs": [
+        {
+          "title": "Home",
+          "items": [
+            "Order in / Dine out",
+            "Top cuisines & reorder",
+            "Restaurant feed",
+            "Dining & reservations"
+          ]
+        },
+        {
+          "title": "Search",
+          "items": [
+            "Restaurants & dishes",
+            "Cuisines",
+            "Contextual filters"
+          ]
+        },
+        {
+          "title": "Orders",
+          "items": [
+            "Active order & tracking",
+            "Past orders & reorder",
+            "Dining reservations",
+            "Support & refunds"
+          ]
+        },
+        {
+          "title": "Account",
+          "items": [
+            "Profile & addresses",
+            "Gold membership",
+            "Payment methods",
+            "Preferences"
+          ]
+        }
+      ],
+      "flow": [
+        "Confirm location",
+        "Choose intent",
+        "Search or browse",
+        "Restaurant & menu",
+        "Customize items",
+        "Review cart",
+        "Pay",
+        "Track delivery",
+        "Rate the experience"
+      ],
+      "figma": "https://www.figma.com/design/pVsYLQp6Zg4xaWaVR6SLBG/PRT?node-id=29-210",
+      "editorial": {
+        "title": "Intent before inventory.",
+        "text": "The Zomato proposal begins with what someone wants to do. The navigation and content then follow that choice.",
+        "cover": "Less searching.\nMore deciding."
+      }
+    },
+    {
+      "slug": "verge",
+      "name": "Verge",
+      "number": "04",
+      "category": "INTERACTION DESIGN · SHORT STUDY",
+      "tagline": "A little space to think clearly.",
+      "summary": "Four thoughtful steps for working through a difficult personal decision.",
+      "role": "UI/UX design",
+      "timeline": "Four-step concept",
+      "platform": "Mobile app",
+      "tools": "Figma",
+      "status": "Independent app concept",
+      "overview": "Verge helps someone name a decision, rank what matters, reflect on their feelings and assess readiness. The concept explores a career decision about relocating for a new role.",
+      "problemTitle": "Not every reason belongs on the same side of a list.",
+      "problem": "A pros-and-cons list treats every reason as equal. Difficult decisions need room for personal priorities, uncertainty and the possibility that someone is not ready yet.",
+      "process": [
+        {
+          "title": "Name the decision",
+          "text": "A simple first step asks what someone is weighing, with a category and optional context."
+        },
+        {
+          "title": "Find the priorities",
+          "text": "Choose up to three priorities, identify worries and put the priorities in order."
+        },
+        {
+          "title": "Reflect, then review",
+          "text": "Separate excitement from hesitation before reviewing the suggested direction and setting a personal readiness score."
+        }
+      ],
+      "decisions": [
+        {
+          "title": "Name it before solving it",
+          "text": "The first screen reassures the user: No need to solve it yet. Optional context lowers the pressure to write a perfect answer."
+        },
+        {
+          "title": "Make the trade-off visible",
+          "text": "Choosing three priorities from six, then ranking them, lets the review connect back to what this person values most."
+        },
+        {
+          "title": "Leave room for Not yet",
+          "text": "The review proposes a direction but includes This feels right and Not yet, plus a readiness slider. Testing must establish whether its interpretation feels helpful or too prescriptive."
+        }
+      ],
+      "next": "Design the Not yet path and the follow-up after saving a decision. Test with people facing a real choice, especially whether the generated reflection overstates what their words imply.",
+      "figma": "https://www.figma.com/design/eT2IXKeUUmG9FpIuEljtXh/Verge?node-id=1-243",
+      "editorial": {
+        "title": "Leave room for uncertainty.",
+        "text": "Verge makes space for personal priorities and hesitation. A useful reflection should help someone think, without deciding for them.",
+        "cover": "A little space\nto think clearly."
+      }
+    }
+  ],
+  "fieldNotes": [
+    {
+      "number": "01",
+      "tag": "A SYSTEMS PERSPECTIVE",
+      "title": "The interface is only part of the system.",
+      "text": "Engineering taught me to look at connections. In design, I start with the journey: what brings someone here, what they need now, and where the experience takes them next.",
+      "link": "about.html",
+      "linkLabel": "My path into design"
+    },
+    {
+      "number": "02",
+      "tag": "ON VISUAL DETAIL",
+      "title": "A detail should carry an idea.",
+      "text": "A route becomes a signature in Meridian. A progress chart gives RepUp a daily rhythm. I look for visual choices that make an experience more useful and more recognisable.",
+      "link": "explorations.html",
+      "linkLabel": "Explore the details"
+    }
+  ],
+  "coverBackground": "identity/studio-sunlit.webp"
+}

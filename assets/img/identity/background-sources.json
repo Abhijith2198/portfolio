@@ -1,0 +1,22 @@
+{
+  "mode": "built-in image generation",
+  "selected": "studio-sunlit",
+  "assets": [
+    {
+      "name": "studio-sunlit",
+      "png": "assets/img/identity/studio-sunlit.png",
+      "webp": "assets/img/identity/studio-sunlit.webp",
+      "width": 1672,
+      "height": 941,
+      "prompt": "Use case: photorealistic-natural. Create a high-resolution standalone architectural background photograph for a polished UI/UX designer portfolio cover. Wide landscape 16:9, ideally 3840 by 2160. A quiet, empty contemporary photography studio: warm ivory limewashed plaster wall, very fine realistic mineral texture, matte pale stone floor, soft natural morning sunlight entering from an unseen tall window on the left. A broad elegant diagonal patch of light and a few delicate out-of-focus leaf shadows only near the far upper-right edge add life; most of the image stays clean. Gentle horizontal wall-to-floor transition at about 70% of image height. Straight-on camera, level perspective, sophisticated architectural-editorial photography, crisp material detail, natural dynamic range. Palette is pale bone, soft oatmeal and ivory with restrained cool-gray shadows, not yellow or orange. Keep the central 80% and the lower-left area uncluttered and light for real device mockups and dark typography to be composited separately. This is only a background photograph, not a complete website or product shot. Absolutely no people, devices, products, furniture, display stands, plinths, plants themselves, decorations, pictures, text, logo, watermark, blur filter, or grain overlay."
+    },
+    {
+      "name": "studio-gallery",
+      "png": "assets/img/identity/studio-gallery.png",
+      "webp": "assets/img/identity/studio-gallery.webp",
+      "width": 1672,
+      "height": 941,
+      "prompt": "Use case: photorealistic-natural. Create a high-resolution standalone architectural background photograph for a polished UI/UX designer portfolio cover. Wide landscape 16:9, ideally 3840 by 2160. An empty contemporary design gallery photographed straight-on: light pearl-gray plaster wall with refined tactile mineral detail, very pale blue-gray stone floor, a shallow vertical architectural wall recess only at the far right edge. Cool daylight from an unseen skylight gives soft broad window shadows near the right edge and a luminous quiet center. A subtle horizontal wall-to-floor transition at about 70% of image height. It must look like a real photographed space, not an abstract digital gradient, and remain predominantly light. Crisp architectural-editorial photography, level camera, restrained gallery atmosphere. Keep the central 80%, upper-left and lower-left uncluttered for real device mockups and dark typography that will be added separately. This is only a background photograph, not a complete website or product shot. Absolutely no people, devices, products, furniture, display stands, plinths, plants, artwork, decorations, text, logo, watermark, blur filter, or grain overlay."
+    }
+  ]
+}
